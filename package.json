@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "json-server ./db/faker_generate.js",
     "start": "node server.js"
   },
   "repository": {
